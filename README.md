@@ -6,12 +6,19 @@ The project is organized into modular components, each with a specific responsib
 
 ├── etl/
 │   ├── config.py        # Configuration settings
+
 │   ├── extract.py       # Data extraction logic
+
 │   ├── transform.py     # Data transformation logic
+
 │   ├── load.py         # Database loading logic
+
 │   └── pipeline.py     # Pipeline orchestration
+
 ├── main.py             # Main entry point
+
 └── requirements.txt    # Project dependencies
+
 Key Components
 Data Source
 
@@ -55,11 +62,11 @@ Error Resilience: Handles network issues and data inconsistencies gracefully
 Data Integrity: Ensures consistent and reliable data storage
 Scalability: Modular design allows for easy extensions and modifications
 Maintainability: Clear separation of concerns with focused components
+
 Usage
 The pipeline can be started by running:
-
-
 python main.py
+
 This will initiate the ETL process, which will:
 
 Create necessary data directories and database
